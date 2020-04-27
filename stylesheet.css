@@ -1,0 +1,192 @@
+*{
+  box-sizing:border-box;
+}
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.container {
+  max-width:1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: auto;
+}
+
+.top-wrapper {
+  padding: 100px 0 80px 0;
+  background-image: url(https://www.mercuryit.com.au/wp-content/uploads/2018/01/latest-it-background@2x.jpg);
+  background-size: cover;
+  color: white;
+  text-align: center;
+  border-bottom: 2px solid #b3aeb5;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.facebook {
+  background-color:#5dca88;
+  margin-right:10px;
+}
+
+.twitter {
+  background-color: #5dca88;
+}
+
+.instagram {
+  background-color: #5dca88;
+}
+
+.whatsapp{
+  background-color: #5dca88;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa{
+  opacity:0.7;
+  padding-top:12px;
+  padding-bottom:12px;
+  padding-left:13px;
+  padding-right:13px;
+
+}
+
+
+.header-right .fa:hover{
+  background-color:black;
+  opacity:0.5;
+}
+
+header {
+  height: 40px;
+  width: 100%;
+  background-color:#239b76;
+  position:fixed;
+  top:0;
+  z-index:10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+  color: white;
+  font-size: 34px;
+}
+
+.header-right {
+  height:40px;
+  color:white;
+  float: right;
+  background-color:#5dca88;
+  transition: all 0.5s;
+}
+
+.lesson-wrapper{
+  height:500px;
+  padding-bottom:80px;
+  background-color:#f9fbfe;
+  text-align:center;
+}
+
+.heading{
+  padding-top:60px;
+  padding-bottom:30px;
+  color: #5f5d60;
+}
+
+.heading h1{
+  font-weight:normal;
+}
+
+.lesson{
+  float:left;
+  width:25%;
+}
+
+.lesson-icon{
+  position:relative;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.section-title{
+  text-align:center;
+}
+
+.message {
+  background-color: #5dca88;
+  cursor: pointer;
+  box-shadow: 0 7px #1a7940;
+}
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.team{
+   height:330px;
+  padding-bottom:80px;
+  text-align:center;
+  border-top:2px solid #b3aeb5;
+ 
+}
+
+.team-title h1{
+  font-weight:normal;
+  color:#5f5d60;
+}
+.pe{
+  float:left;
+  width:calc(100%/5);
+}
+
+.pe img{
+  width:200px;
+  height:200px;
+  border-radius:30px;
+}
+
+footer{
+  background-color:#5dca88;
+  padding:20px;
+  text-align:center;
+  font-size:18px;
+  margin-top:50px;
+  color:white;
+  
+}
+

@@ -1,0 +1,46 @@
+@media (max-width:1000px){
+
+  .lesson{
+    width:50%;
+  }
+  .lesson-wrapper {
+  height: 750px;
+}
+
+.pe{
+  width:calc(100%/3);
+}
+
+.team{
+  height:750px;
+}
+
+}
+
+@media (max-width:670px){
+  .lesson{
+    width:100%;
+  }
+  .txt-contents{
+    text-align:left;
+  }
+  .lesson-wrapper {
+  height: 1350px;
+}
+
+.top-wrapper{
+  text-align:left;
+}
+
+.top-wrapper h1{
+  font-size: 24px;
+  line-height: 36px;
+  
+}
+
+ .pe{
+    width:100%;
+  }
+  .team{
+  height: 1350px;
+}
